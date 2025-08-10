@@ -31,11 +31,14 @@ body{
     gap: 2rem;
     overflow: hidden;
 }
+.headingofsecondsection{
+    color: #1e3932 !important;
+}
 
-.h2{
-    font-weight: 800;
-    font-size: clamp(24px), 3vw + 2rem, 32px;
-    letter-spacing: .02em;
+h2,.h1{
+    font-weight: 800 !important;
+    font-size: clamp(24px), 3vw + 2rem, 32px !important;
+    letter-spacing: .02em !important;
 }
 .h3{
     font-weight: 600;
@@ -53,18 +56,24 @@ body{
     font-size: 1.2rem;
     line-height: 1.8;
 }
+.pppp{
+    /* padding: 0 7.5rem 0 7.5rem; */
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #1e3932 !important;
+}
 
 .ppbl{
-    color: var(--white);
+    color: var(--white) !important;
 }
 .black{
-    background-color: #1e1e1e;
+    background-color: #1e1e1e !important;
 }
 .textwhite{
-    color: var(--white);
+    color: var(--white) !important;
 }
 .textlink{
-    color: black;
+    color: black !important;
 }
 @media (min-width: 1532px){
     .textlastcontent{
@@ -75,37 +84,39 @@ body{
 }
 
 .btn{
-    font-weight: 600;
-    text-decoration: none;
-    border-radius: 1rem;
-    padding: .3rem 1.3rem;
-    transition: background-color 200ms ease-in-out;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    border-radius: 1rem !important;
+    padding: .3rem 1.3rem !important;
+    transition: background-color 200ms ease-in-out !important;
 }
 .btn--light{
-    border: 1px solid #334830;
-    background-color: transparent;
-    color: #334830;
+    border: 1px solid #334830 !important;
+    background-color: transparent !important;
+    color: #334830 !important;
 }
 .btn--light:is(:hover, :focus):is(:hover, :focus){
-    border: 1px solid #334830;
-    background-color: var(--whiteHover);
-    color: #334830;
+    border: 1px solid #334830 !important;
+    background-color: var(--whiteHover) !important;
+    color: #334830 !important;
 }
 
-.btn--outline-green{
-    border: 1px solid black;
-    background-color: var(--white);
-    color: black;
+.btn--outline-green {
+    border: 1px solid black !important;
+    background-color: var(--white) !important;
+    color: black !important;
 }
-.btn--outline-green:is(:hover, :focus){
-    border: 1px solid var(--green);
-    background-color: var(--greenHover);
-    color: var(--green);
+.btn--outline-green:is(:hover, :focus) {
+    border: 1px solid var(--green) !important;
+    background-color: var(--greenHover) !important;
+    color: var(--green) !important;
 }
+
+
 .btn--outline-green1{
-    border: 1px solid var(--white);
-    background-color: #1e1e1e;
-    color: #ffffff;
+    border: 1px solid var(--white) !important;
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
 }
 /* .btn--outline-green1:is(:hover, :focus){
     border: 1px solid var(--green);
@@ -114,14 +125,14 @@ body{
 } */
 
 .btn--filled-green{
-    border: 1px solid var(--text);
-    background-color: var(--text);
-    color: var(--white);
-    transition: all 200ms ease-in-out;
+    border: 1px solid var(--text) !important;
+    background-color: var(--text) !important;
+    color: var(--white) !important;
+    transition: all 200ms ease-in-out !important;
 }
 .btn--filled-green:is(:hover, :focus){
 
-    opacity: .8;
+    opacity: .8 !important;
 }
 
 nav{
@@ -263,7 +274,7 @@ main{
 }
 
 section{
-    background-color: #d1d1aa;
+    background-color: #d1d1aa !important;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -274,8 +285,8 @@ section.reverse{
 }
 
 .section1{
-    background-color: #f9eedf;
-    color: #006342;
+    background-color: #f9eedf !important;
+    color: #006342 !important;
 }
 .flex-child{
     display: grid;
@@ -321,6 +332,7 @@ footer{
     
 }
 .text-all-item{
+    margin-top: 2rem;
     border-bottom: 2px solid var(--gray);
     padding-bottom: 3rem;
     margin-bottom: 2rem;
@@ -328,18 +340,19 @@ footer{
 .fooetr-item{
     list-style: none;
     line-height: 3rem;
-    color: var(--gray);
+    color: var(--gray) !important;
+    margin-top: 2rem;
 }
 .footer-li:hover{
     cursor: pointer;
-    color: black;
+    color: black !important;
 }
 .text{
     line-height: 5rem;
 }
 .social-media-item{
     list-style: none;
-    font-size: 1.7rem;
+    font-size: 1.7rem !important;
     display: flex;
     gap: 1rem;
 }
@@ -353,8 +366,8 @@ footer{
 .policy-list{
     list-style: none;
     line-height: 2.5rem;
-    color: black;
-    font-weight: 400;
+    color: black !important;
+    font-weight: 400 !important;
     
 }
 .policy-list:hover{
@@ -366,3 +379,6 @@ footer{
     margin-top: .81rem;
     margin-bottom: 2rem;
 }
+ul {
+    padding-left: 0rem !important;
+  }
